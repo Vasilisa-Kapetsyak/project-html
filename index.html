@@ -5,99 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Barocco furniture</title>
+    <link rel="stylesheet" href="css/index.css">
+
 </head>
 <body>
     <header>
-            <div id="logo"><h1>
-                <span>
-                   <a href="index.html">Barocco furniture</a>
-                </span>
-            </h1></div>
-        <figure>
-            <img src="images/logo.png" alt="Logo" width="235" height="146" />
-        </figure>
-        <form>
-            <div>
-                <input type="search" id="mySearch" name="q" placeholder="Search..." required>
-                <button>Go!</button>
-                <span class="validity"></span>
+        <div id="header-logo">
+            <div id="logo">
+                <a href="index.html">Barocco furniture</a>
             </div>
-        </form>
-        <figure>
-            <img src="images/phone_in_talk_icon.png" alt="Phone in talk icon" width="24" height="24" />
-            <figcaption>Info and sales tel +380961817830</figcaption>
-        </figure>
-        <select class="selectpicker" data-width="fit">
-            <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-            <option data-content='<span class="flag-icon flag-icon-uk"></span> Ukraine'>Ukraine</option>
-            <option data-content='<span class="flag-icon flag-icon-ru"></span> Russion'>Russion</option>
-        </select>
-        <figure>
-            <img src="images/shopping_cart_icon.png" alt="Shopping cart icon" width="36" height="36" />
-                <figcaption>
-                    <a href="mycart">My cart</a>
-                </figcaption>
-        </figure>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#aboutus">About us</a></li>
-                <li><a href="#contactus">Contact us</a></li>
-            </ul>
-        </nav>
+            <div id="logo-image">
+                <img src="images/logo.png" alt="Logo image" width="235" height="146"/>
+            </div>
+        </div>
+        <div id="right-side-menu">
+            <div id="search-phone-language-cart">
+                <div id="search">
+                    <form class="search">
+                        <input type="search" class="form-control" id="mySearch" name="q" placeholder="Search..." required>
+                        <button>Go!</button>
+                        <span class="validity"></span>
+                    </form>
+                </div>
+                <div id="phone-language-cart">
+                    <div id="phone-number">
+                        <img src="images/phone_in_talk_icon.png" alt="Phone in talk icon" width="24" height="24" />
+                        <span>Info and sales tel +380961817830</span>
+                    </div>
+                    <div id="choose-language">
+                        <select class="selectpicker" data-width="fit">
+                            <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                            <option data-content='<span class="flag-icon flag-icon-uk"></span> Ukraine'>Ukraine</option>
+                            <option data-content='<span class="flag-icon flag-icon-ru"></span> Russion'>Russion</option>
+                        </select>
+                    </div>
+                    <div id="shopping-cart">
+                        <img src="images/shopping_cart_icon.png" alt="Shopping cart icon" width="36" height="36" />
+                            <span>
+                                <a href="mycart">My cart</a>
+                            </span>
+                    </div>
+                </div>
+            </div>
+                <div id="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#aboutus">About us</a></li>
+                            <li><a href="#contactus">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
     </header>
     <main>
         <section id="home">
-            <figure>
-                <img src="images/luxury_red_living_room.jpg" alt="Luxury red living room image" width="1018" height="530" />
-            </figure>
+            <img src="images/luxury_red_living_room.jpg" alt="Luxury red living room image" width="1018" height="530" />
         </section>
         <section id="products">
-                <figcaption>
-                    <h3><b><a href="mycart">Products</a></b></h3>
-                </figcaption>
+            <a href="mycart">Products</a>
             <figure>
             <img src="images/gold_living_room_sofa_image.jpg" alt="Gold living room sofa image" width="220" height="220"/>
                 <figcaption>
-                    <b><a href="livingrooms">Living Rooms</a></b>
+                    <a href="livingrooms">Living Rooms</a>
                 </figcaption>
             </figure>
             <figure>
             <img src="images/barocco_bed_ivory_image.jpg" alt="Barocco bed ivory image" width="220" height="220"/>
                 <figcaption>
-                    <b><a href="bedrooms">Bedrooms</a></b>
+                    <a href="bedrooms">Bedrooms</a>
                 </figcaption>
             </figure>
             <figure>
             <img src="images/red_living_room_sofa_image.jpg" alt="Red living room sofa image" width="220" height="220"/>
                 <figcaption>
-                    <b><a href="lunchrooms">Lunchrooms</a></b>
+                    <a href="lunchrooms">Lunchrooms</a>
                 </figcaption>
             </figure>
             <figure>
             <img src="images/barocco_bedside_table_ivory_image.jpg" alt="Barocco bedside table ivory image" width="220" height="220"/>
                 <figcaption>
-                    <b><a href="bedsidetables">Bedside Tables</a></b>
+                    <a href="bedsidetables">Bedside Tables</a>
                 </figcaption>
             </figure>
             <figure>
             <img src="images/barocco_dresser_ivory_image.jpg" alt="Barocco dressedr ivory image" width="220" height="220"/>
                 <figcaption>
-                    <b><a href="dressers">Dressers</a></b>
+                    <a href="dressers">Dressers</a>
                 </figcaption>
             </figure>
             <figure>
             <img src="images/barocco_red_sofa_image.jpg" alt="Barocco red sofa image" width="220" height="220"/>
                 <figcaption>
-                    <b><a href="sofas">Sofas</a></b>
+                    <a href="sofas">Sofas</a>
                 </figcaption>
             </figure>
         </section>
         <section id="aboutus">
-                <figcaption>
-                    <h3><b><a href="aboutus">About us</a></b></h3>
-                </figcaption>
+            <a href="aboutus">About us</a>
             <p><b>Barocco.com</b> is the Ukraine region's leading furniture and interior store online. 
             Since 2008, we have expanded to over 200 employees, a turnover of almost 
             USD 1 billion and more than 400,000 satisfied customers. In addition to 11 
@@ -112,9 +118,7 @@
     </main>
     <footer>
         <div id="contactus">
-                <figcaption>
                     <h3><b><a href="contactus">Contact us</a></b></h3>
-                </figcaption>
         	<form action="https://formspree.io/vasilisa.k3107@gmail.com" method="POST">
         	    <div>
                     <label for="firstname">Name</label>
@@ -131,13 +135,15 @@
                 <input type="submit" value="Send">
         	</form>
         </div>
-        <h3>here will be location</h3>
-        <figure>
-            <img src="images/facebook_icon.png" alt="Facebook icon" width="57" height="58"/>
-            <img src="images/instagram_icon.png" alt="Instagram icon" width="57" height="58"/>
-            <img src="images/telegram_icon.png" alt="Telegram icon" width="57" height="58"/>
-        </figure>
-        <span>Copyright 2008- 2019 Barocco.com. All rights reserved</span>
+        <div id="site-footer">
+            <h3>here will be location</h3>
+            <figure>
+                <img src="images/facebook_icon.png" alt="Facebook icon" width="57" height="58"/>
+                <img src="images/instagram_icon.png" alt="Instagram icon" width="57" height="58"/>
+                <img src="images/telegram_icon.png" alt="Telegram icon" width="57" height="58"/>
+            </figure>
+        </div>
+        <p>Copyright 2008- 2019 Barocco.com. All rights reserved</p>
     </footer>
 </body>
 </html>
