@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+#header-logo {
+    border: 0px solid #f00;
+    float: left;
+    width: 20%;
+}
+
+#right-side-menu {
+    border: 0px solid #f0f;
+    float: left;
+    width: 80%;
+}
+
+#header-logo #logo {
+    border: 0px solid #f00;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#header-logo #logo a {
+    text-decoration: none;
+    color: #f00;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+#header-logo #logo-image {
+    border: 0px solid #0f0;
+    text-align: center;
+}
+
+#right-side-menu #search-language-cart {
+    border: 0px solid #f00;
+    margin-top: 15px;
+}
+
+#right-side-menu #menu {
+    border: 0px solid #f00;
+}
+
+#right-side-menu #phone-number {
+    border: 0px solid #00f;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#right-side-menu #phone-number span {
+    font-size: 18px;
+}
+
+#right-side-menu #search-language-cart .search {
+    border: 0px solid #f00;
+    float: left;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+#right-side-menu #search-language-cart #language {
+    border: 0px solid #0f0;
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#right-side-menu #search-language-cart #cart {
+    border: 0px solid #00f;
+    float: right;
+    margin-right: 30px;
+}
+
+#right-side-menu #search-language-cart #cart image {
+    float:left;
+}
+
+#right-side-menu #search-language-cart #cart span a {
+    border: 0px solid #f00;
+    margin-top: 10px;
+    padding-left: 10px;
+    display: block;
+    float: right;
+}
+
+#right-side-menu #menu {
+    border: 0px solid #f00;
+}
+
+#right-side-menu #menu ul {
+    border: 0px solid #f00;
+    margin-left: 250px;    
+    padding-left: 0px;
+}
+
+#right-side-menu #menu li {
+    border: 0px solid #0f0;
+    background-color: #0f0;
+    float: left;
+    list-style-type: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+#right-side-menu #menu li a {
+    border: 0px solid #f00;
+    padding-top: 11px;
+    display: block;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
